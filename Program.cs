@@ -42,6 +42,7 @@ namespace MsTeamsBot
         static bool SendlogstoDiscord = false; //Send bot activity to discord
         static void Main(string[] args)
         {
+            //CursedSheep was here ;D
             SetThreadExecutionState(EXECUTION_STATE.ES_DISPLAY_REQUIRED | EXECUTION_STATE.ES_AWAYMODE_REQUIRED
 | EXECUTION_STATE.ES_CONTINUOUS | EXECUTION_STATE.ES_SYSTEM_REQUIRED); //Prevent computer from sleeping
             Console.ForegroundColor = ConsoleColor.Green;
