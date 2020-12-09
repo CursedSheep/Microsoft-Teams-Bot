@@ -220,7 +220,7 @@ namespace MsTeamsBot
             againxcd:
             try
             {
-                var elementStudentName = driver.FindElementByXPath(GetID("ng-bind", "::sdc.authenticatedUserName"));
+                var elementStudentName = driver.FindElementByXPath(GetID("class", "profile-name-text single-line-truncation"));
                 StudentName = elementStudentName.Text;
             }
             catch
